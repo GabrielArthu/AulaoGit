@@ -78,7 +78,7 @@ interface NomeDaInterface {
 
 ### Características Exclusivas
 
-#### a) Herança com `extends`
+#### a) Herança com extends
 
 Interfaces podem herdar de outras, criando hierarquias de tipos de forma clara e intuitiva.
 
@@ -108,8 +108,7 @@ console.log(magoEletrico); // exibindo o objeto
 
 Se você declarar a mesma interface múltiplas vezes, o TypeScript as unirá em uma única definição. Isso é útil para estender tipos de bibliotecas externas.
 
-```typescript
-
+```typescript 
 //Iniciando um type para mesclarmos os conceitos
 type Damage = { 
   tower: number,
